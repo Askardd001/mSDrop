@@ -1,0 +1,43 @@
+MySQL: false
+database-settings:
+  host: ''
+  port: 3306
+  user: ''
+  password: ''
+  database: ''
+
+update:
+  check: true
+  auto-download: false
+  notify-admins: true
+  repository: '${msdrop.repository}'
+  interval-hours: 6
+
+safe-drop:
+  enabled: true
+  seconds: 10
+  text-message:
+    enabled: true
+  actionbar-message:
+    enabled: true
+messages:
+  no-permission: '&cYou do not have permission to do this!'
+  drop-text-message: '&9Confirm drop by dropping item again!'
+  drop-actionbar-message: '&9Confirm drop by dropping item again!'
+  safedrop-off: '&cSafeDrop has been disabled!'
+  safedrop-on: '&aSafeDrop has been enabled!'
+  reload: '&d&lmSDrop &dhas successfully reloaded.'
+  reportbug: '&9Report issues here: &7link'
+  update-available: '&9mSDrop &f{version} &9is available. Use &f/sd update &9to download it.'
+  update-downloaded: '&amSDrop &f{version} &adownloaded. Restart the server to apply it.'
+  update-latest: '&aYou are already using the latest version.'
+  update-failed: '&cCould not update, check the console.'
+  update-disabled: '&cSet update.repository in config.yml first.'
+  usage:
+    - '&9&lTry,'
+    - '&9/&8Safedrop &7- Turns on/off safedrop'
+  usage-admin:
+    - '&c&lAdmin Command:'
+    - '&c/&8sd reload &7- reloads plugin'
+    - '&c/&8sd update &7- downloads the latest version'
+    - '&c/&8sd reportbug &7- report a plugin bug'

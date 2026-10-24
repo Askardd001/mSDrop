@@ -1,0 +1,25 @@
+name: mSDrop
+version: '${project.version}'
+main: dev.msdrop.mSDrop
+api-version: '1.20'
+folia-supported: true
+authors: [ CodedRed ]
+description: Confirm drops before dropping items!
+
+commands:
+  msdrop:
+    aliases: [ sd, safedrop ]
+    description: "Enable/Disable the drop confirmation."
+    usage: "/sd on/off"
+  droptoggle:
+    aliases: [ drop ]
+    description: "Toggle the drop confirmation."
+    usage: "/drop"
+
+permissions:
+  sd.use:
+    description: Allows the player to use mSDrop.
+    default: op
+  sd.admin:
+    description: Allows reloading the plugin.
+    default: op
