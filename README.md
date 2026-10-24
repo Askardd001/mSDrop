@@ -2,8 +2,6 @@
 
 Pede confirmação antes de dropar um item. O jogador aperta Q, recebe o aviso, e só dropa de verdade se apertar Q de novo dentro do tempo configurado. Evita perder item por tecla errada.
 
-Baseado no [SafeDrop](https://github.com/CodedRed-Spigot/SafeDrop), do CodedRed.
-
 ## Compatibilidade
 
 Spigot, Paper, Purpur e Folia, da 1.20 até a 26.x, com o mesmo jar.
@@ -99,7 +97,3 @@ Para que o jar compilado já venha com o atualizador apontando para um repositó
 ```
 mvn package -Dmsdrop.repository=dono/repositório
 ```
-
-## Licença
-
-MIT, a mesma do projeto original. O arquivo `LICENSE` mantém o copyright do CodedRed.
